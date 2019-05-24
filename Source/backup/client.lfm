@@ -214,7 +214,7 @@ object Form1: TForm1
     7D7BD5715FF4704F2FFFF76E47DF270000000000000000000000000000000000
     00005CE4FF010C540EDFCC2309950000000049454E44AE426082
   }
-  LCLVersion = '1.8.4.0'
+  LCLVersion = '2.0.0.4'
   object Image1: TImage
     Left = 0
     Height = 368
@@ -1560,6 +1560,7 @@ object Form1: TForm1
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
     Font.Style = [fsBold]
+    OnClick = Button1Click
     ParentFont = False
     TabOrder = 1
   end
@@ -1575,6 +1576,8 @@ object Form1: TForm1
     Height = 23
     Top = 128
     Width = 280
+    EchoMode = emPassword
+    PasswordChar = '*'
     TabOrder = 3
   end
   object Edit4: TEdit
